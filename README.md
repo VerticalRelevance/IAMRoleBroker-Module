@@ -22,6 +22,9 @@ sc_lambda.py includes 2 classes:
 
 ### lambda_function/lambda_code.py
 
+* main_function
+* * Utilizes Policy Sentry to analyze the configuration options presented and list the appropriate actions the role would need, and then uses boto3 to create the role/policy
+
 ## Setup
 
 The `cdk.json` file tells the CDK Toolkit how to execute the app.
